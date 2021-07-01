@@ -72,7 +72,7 @@ pip3 install -r requirements.txt
 ```
 Place all the parquet files associated with the production readings in the folder ```CosyGrid.CosyGrid_Electrical_Meter_Readings_Production``` and place all the files associated with the mains meter readings in the folder ```CosyGrid.CosyGrid_Electrical_Meter_Readings_Mains```. Create these folders if you have not already in the directory where this repository is cloned to. 
 
-The script combines sorts and merges all the production and consumption parquet files to output two csv files being ```CosyGrid_Electircal_Meter_Readings_Mains.csv``` and ```CosyGrid_Electircal_Meter_Readings_Production.csv```. 
+The script combines, sorts and merges all the production and consumption parquet files to output two csv files being ```CosyGrid_Electircal_Meter_Readings_Mains.csv``` and ```CosyGrid_Electircal_Meter_Readings_Production.csv```. 
 
 To run the script use the following command 
 ```
