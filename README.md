@@ -1,4 +1,4 @@
-# Parquet to CSV 
+# S3 Parquet to CSV 
 The purpose of this repository is to convert extracted data from the CosyGrid database from the parquet format to csv. The parquet format is used by AWS as the storage costs are less, 1 TB in CSV format is equal to 130 Gb in parquet format. 
 
 ## Exporting the data from the database 
