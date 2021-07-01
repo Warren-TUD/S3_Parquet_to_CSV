@@ -1,6 +1,8 @@
 # S3 Parquet to CSV 
 The purpose of this repository is to convert extracted data from the CosyGrid database from the parquet format to csv. The parquet format is used by AWS as the storage costs are less, 1 TB in CSV format is equal to 130 Gb in parquet format. 
 
+This readme goes through how to get the data from RDS to S3, if you have already done this and have the data on your local machine skip to the section [Converting Parquet to CSV](https://github.com/Warren-TUD/S3_Parquet_to_CSV#converting-parquet-to-csv).
+
 ## Exporting the data from the database 
 To first get the data from the database a snapshot of the database must be created using the AWS console. A snapshot is like freezing the database at particular point in time.   
 To create a snapshot naviagte to the AWS console and then the RDS console https://eu-west-1.console.aws.amazon.com/rds/home. Select the "CosyGrid" database, then the "Actions" dropdown menu and finally select "Take Snapshot". Name the snapshot and it should then appear in the "Snapshots" section of the RDS console. 
