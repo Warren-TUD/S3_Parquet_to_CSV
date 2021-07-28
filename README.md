@@ -76,7 +76,7 @@ Place all the parquet files associated with the production readings in the folde
 
 The script combines, sorts and merges all the production and consumption parquet files to output two csv files being ```CosyGrid_Electircal_Meter_Readings_Mains.csv``` and ```CosyGrid_Electircal_Meter_Readings_Production.csv```. 
 
-To run the script use the following command 
+To run the script use the following command. 
 ```
 python3 main.py
 ```
