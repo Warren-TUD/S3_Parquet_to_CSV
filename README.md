@@ -81,6 +81,9 @@ To run the script use the following command
 python3 main.py
 ```
 
+The ouptut should be two csv files ```CosyGrid_Electircal_Meter_Readings_Production.csv``` and ```CosyGrid_Electircal_Meter_Readings_Mains.csv``` which contain the mains and solar data. 
+The script can be edited if different files need to be converted from parquet to csv.
+
 
 
 

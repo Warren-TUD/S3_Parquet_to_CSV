@@ -2,8 +2,14 @@ MyEnv/
 
 CosyGrid.CosyGrid_Electrical_Meter_Readings_Mains/
 CosyGrid.CosyGrid_Electrical_Meter_Readings_Production/
+CosyGrid.CosyGrid_Electrical_Meter_Details/
+CosyGrid.CosyGrid_Users/
 
 
 CosyGrid_Electircal_Meter_Readings_Mains.csv
 CosyGrid_Electircal_Meter_Readings_Production.csv
+
+CosyGrid_Electrical_Meter_Details.csv
+CosyGrid_Users.csv
+
 
